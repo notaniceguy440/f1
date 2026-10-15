@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign In to your F1 account</title>
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;0,700;0,900;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <span class="f1-logo" aria-label="F1 logo">
+      <img src="F1.svg.webp" alt="" aria-hidden="true">
+    </span>
+  </header>
+
+  <!-- Main -->
+  <main class="main">
+    <div class="auth-wrap">
+
+      <!-- Toggle -->
+      <div class="toggle">
+        <div class="toggle-group">
+          <a href="register.html">Register</a>
+          <a href="index.html" class="active">Sign In</a>
+        </div>
+      </div>
+
+      <h1 class="auth-title">Sign in to your F1 account</h1>
+      <p class="auth-subtitle">Enter your F1 account email and password below.</p>
+
+      <form action="#" method="post" novalidate>
+
+        <!-- Email -->
+        <div class="field">
+          <label for="email">Email address*</label>
+          <div class="input-shell">
+            <svg class="lead-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <rect x="3" y="5" width="18" height="14" rx="2"/>
+              <path d="M3 7l9 6 9-6"/>
+            </svg>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" autocomplete="email">
+          </div>
+        </div>
+
+        <!-- Password -->
+        <div class="field">
+          <label for="password">Password*</label>
+          <div class="input-shell">
+            <svg class="lead-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <rect x="5" y="11" width="14" height="10" rx="2"/>
+              <path d="M8 11V8a4 4 0 0 1 8 0v3"/>
+            </svg>
+            <input type="password" id="password" name="password" placeholder="Enter your password" autocomplete="current-password">
+            <svg class="trail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <path d="M3 3l18 18"/>
+              <path d="M10.6 10.6a2 2 0 0 0 2.8 2.8"/>
+              <path d="M9.4 5.1A9.5 9.5 0 0 1 12 4.8c5 0 9 4.2 9 7.2a11 11 0 0 1-2.2 3.2"/>
+              <path d="M6.1 6.8A11 11 0 0 0 3 12c0 3 4 7.2 9 7.2 1.2 0 2.3-.2 3.3-.6"/>
+            </svg>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-primary">Sign In</button>
+      </form>
+
+      <a href="#" class="forgot">Forgotten password?</a>
+
+      <hr class="divider">
+
+      <p class="register-cta">
+        <strong>Don't have an account yet?</strong>
+        <a href="register.html">Register with F1</a>
+      </p>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <nav class="footer-links">
+      <a href="#">Privacy policy</a>
+      <a href="#">Subscription</a>
+      <a href="#">Terms of use</a>
+      <a href="#">F1 Help</a>
+      <a href="#">Cookies preferences</a>
+    </nav>
+    <div class="footer-bar">
+      <div class="stripes"></div>
+      <span class="f1-logo f1-mark" aria-label="F1 logo">
+        <img src="F1.svg.webp" alt="" aria-hidden="true">
+      </span>
+    </div>
+    <p class="copyright">2003-2026 Formula One World Championship Limited.</p>
+  </footer>
+
+</body>
+</html>
