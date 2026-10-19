@@ -420,3 +420,73 @@ body {
   .row-2 { flex-direction: column; gap: 0; }
   .footer-links { gap: 12px; }
 }
+
+.f1-swal-popup {
+  font-family: 'Titillium Web', 'Segoe UI', Arial, sans-serif;
+  border-radius: 18px;
+  padding: 2rem;
+  color: #15151e;
+}
+
+.f1-swal-popup .swal2-title {
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #15151e;
+}
+
+.f1-swal-popup .swal2-html-container {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.f1-swal-button,
+.f1-swal-cancel {
+  border: none;
+  border-radius: 999px;
+  padding: 12px 28px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 5px;
+  transition: background 0.2s ease;
+}
+
+.f1-swal-button {
+  background: #e10600;
+  color: #fff;
+}
+
+.f1-swal-button:hover {
+  background: #c10500;
+}
+
+.f1-swal-cancel {
+  background: #e4e0db;
+  color: #15151e;
+}
+
+.f1-swal-cancel:hover {
+  background: #d6d2cd;
+}
+
+.f1-swal-popup .swal2-icon.swal2-success {
+  border-color: #e10600;
+  color: #e10600;
+}
+
+.f1-swal-popup .swal2-icon.swal2-success [class^="swal2-success-line"] {
+  background-color: #e10600;
+}
+
+.f1-swal-popup .swal2-icon.swal2-success .swal2-success-ring {
+  border-color: rgba(225, 6, 0, 0.25);
+}
+
+.trail-icon:focus-visible {
+  outline: 2px solid #e10600;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
